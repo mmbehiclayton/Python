@@ -1,0 +1,103 @@
+#I'm gonna code here!
+firstname="Clayton"
+lastname="Mmbehi"
+#print("Hello Clayton How is Python coding?")
+#print('Hey',firstname,lastname)
+#print(firstname,lastname,"is a pro python coder")
+
+#python variables
+#x=5
+#y=10
+#sum=x+y
+#total=float(sum)
+#print("X is",x)
+#print("Y is:",y)
+#print("sum is:",sum )
+#print("The total is:",total)
+
+#python name variables
+
+#multiple line comments
+"""
+myvar = "Clayton"
+my_var = "Clayton"
+_my_var = "Clayton"
+myVar = "Clayton"
+MYVAR = "Clayton"
+myvar2 = "Clayton"
+
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
+"""
+
+#python data types
+"""
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+a = "Hello World"	#str
+b = 20	#int
+c = 20.5	#float
+d = 1j	#complex
+e = ["apple", "banana", "cherry"]	#list
+f = ("apple", "banana", "cherry")	#tuple
+g = range(6)	#range
+h = {"name" : "John", "age" : 36}	#dict
+i = {"apple", "banana", "cherry"}	#set
+j = frozenset({"apple", "banana", "cherry"})	#frozenset
+k = True	#bool
+l = b"Hello"	#bytes
+m = bytearray(5)	#bytearray
+n = memoryview(bytes(5))	#memoryview
+
+print(type(k))
+print(type(a))
+print(type(n))
+"""
+
+#Python Numbers
+#int, float, complex
+"""
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+print(type(z))
+print(type(y))
+print(type(x))
+"""
+#python casting
+#used to specify type onto a variable, for example int(), float(), str()
+#Integers:
+"""
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+print(x)
+print(y)
+print(z)
+
+aa=float(1)
+bb=float(20)
+cc=str("Clayton")
+
+print(aa)
+print(bb)
+print(cc)
+"""
+#python slicing
+username='CLAYTON'
+print(username[0:4])
+print(username[4:7])
+print("Fullname is:",username[0:7])
+print(username.lower())
+print(username.upper())
+
+greeting=" Hey "
+print(greeting)
+#remove white spaces
+print(greeting.strip())
